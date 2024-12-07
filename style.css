@@ -1,3 +1,15 @@
+:root {
+  --color-primary: hsl(160deg, 100%, 30%);
+  --color-secondary-light: hsl(45deg, 100%, 50%);
+  --color-secondary-dark: hsl(45deg, 100%, 40%);
+  --color-black: hsl(0deg, 0%, 0%);
+  --color-very-dark: hsl(0deg, 0%, 10%);
+  --color-dark: hsl(0deg, 0%, 30%);
+  --color-medium: hsl(0deg, 0%, 40%);
+  --color-light: hsl(0deg, 0%, 60%);
+  --color-white: hsl(0deg, 0%, 100%);
+}
+
 * {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
@@ -9,13 +21,18 @@ body {
   padding: 0;
 }
 
+body {
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
 header {
-  border-bottom: 8px solid #999;
+  border-bottom: 8px solid var(--color-light);
   padding: 0 24px;
 }
 
 main {
-  background-color: #666;
+  background-color: var(--color-medium);
   padding-top: 72px;
   padding-bottom: 72px;
 }
@@ -40,7 +57,7 @@ p {
   }
 
   strong {
-    color: #009966;
+    color: var(--color-primary);
   }
 }
 
@@ -49,18 +66,18 @@ p {
 }
 
 .card {
-  background-color: #fff;
+  background-color: var(--color-white);
   padding: 24px;
   padding-top: 8px;
-  border-bottom: 8px solid #999;
+  border-bottom: 8px solid var(--color-light);
 }
 
 .indented-heading {
   width: fit-content;
-  background-color: #ffbf00;
+  background-color: var(--color-secondary-light);
   margin-top: 0;
   margin-bottom: 24px;
   margin-left: -32px;
   padding: 16px 32px;
-  border-bottom: 8px solid #cc9900;
+  border-bottom: 8px solid var(--color-secondary-dark);
 }

@@ -28,7 +28,6 @@ body {
 
 header {
   border-bottom: 8px solid var(--color-light);
-  padding: 0 24px;
 }
 
 h1,
@@ -63,8 +62,7 @@ p {
 }
 
 .intro-chunk {
-  padding-top: 96px;
-  padding-bottom: 64px;
+  padding: 96px 24px 64px;
 
   p {
     max-width: 36ch;

@@ -31,6 +31,11 @@ header {
   padding: 0 24px;
 }
 
+h1,
+h2 {
+  margin-top: 0;
+}
+
 main {
   background-color: var(--color-medium);
   padding-top: 72px;
@@ -75,7 +80,6 @@ p {
 .indented-heading {
   width: fit-content;
   background-color: var(--color-secondary-light);
-  margin-top: 0;
   margin-bottom: 24px;
   margin-left: -32px;
   padding: 16px 32px;

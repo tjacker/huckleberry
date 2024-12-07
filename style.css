@@ -33,7 +33,7 @@ header {
 h1,
 h2 {
   margin-top: 0;
-  line-height: 1.25;
+  line-height: 1.2;
 }
 
 h1 {
@@ -84,14 +84,15 @@ p:last-child {
 .card {
   background-color: var(--color-white);
   padding: 24px;
-  padding-top: 8px;
   border-bottom: 8px solid var(--color-light);
 }
 
 .indented-heading {
   width: fit-content;
   background-color: var(--color-secondary-light);
+  margin-top: -16px;
   margin-left: -32px;
+  margin-bottom: 16px;
   padding: 16px 32px;
   border-bottom: 8px solid var(--color-secondary-dark);
 }
